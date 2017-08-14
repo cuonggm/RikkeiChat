@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		511005EC1F41DF81004DE495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511005EB1F41DF81004DE495 /* AppDelegate.swift */; };
+		511005EE1F41DF81004DE495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511005ED1F41DF81004DE495 /* ViewController.swift */; };
+		511005F11F41DF81004DE495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511005EF1F41DF81004DE495 /* Main.storyboard */; };
+		511005F41F41DF81004DE495 /* RikkeiChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 511005F21F41DF81004DE495 /* RikkeiChat.xcdatamodeld */; };
+		511005F61F41DF81004DE495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511005F51F41DF81004DE495 /* Assets.xcassets */; };
+		511005F91F41DF81004DE495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511005F71F41DF81004DE495 /* LaunchScreen.storyboard */; };
+		511006011F41E098004DE495 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 511006001F41E098004DE495 /* GoogleService-Info.plist */; };
+		8E29316A0ED4E36A77B40195 /* Pods_RikkeiChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91296580B6F9F00BC6EB15B3 /* Pods_RikkeiChat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		511005E81F41DF81004DE495 /* RikkeiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RikkeiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		511005EB1F41DF81004DE495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		511005ED1F41DF81004DE495 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		511005F01F41DF81004DE495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		511005F31F41DF81004DE495 /* RikkeiChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RikkeiChat.xcdatamodel; sourceTree = "<group>"; };
+		511005F51F41DF81004DE495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		511005F81F41DF81004DE495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		511005FA1F41DF81004DE495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		511006001F41E098004DE495 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8081CF71FC37DE09C5FCE635 /* Pods-RikkeiChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RikkeiChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RikkeiChat/Pods-RikkeiChat.debug.xcconfig"; sourceTree = "<group>"; };
+		91296580B6F9F00BC6EB15B3 /* Pods_RikkeiChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RikkeiChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAC61B7924F4FAEAF0B5CCB /* Pods-RikkeiChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RikkeiChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-RikkeiChat/Pods-RikkeiChat.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		511005E51F41DF81004DE495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E29316A0ED4E36A77B40195 /* Pods_RikkeiChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014DE3567D3258CB176DC633 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91296580B6F9F00BC6EB15B3 /* Pods_RikkeiChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		511005DF1F41DF81004DE495 = {
+			isa = PBXGroup;
+			children = (
+				511005EA1F41DF81004DE495 /* RikkeiChat */,
+				511005E91F41DF81004DE495 /* Products */,
+				CEDF9722B42EC2EFC49E571C /* Pods */,
+				014DE3567D3258CB176DC633 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		511005E91F41DF81004DE495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				511005E81F41DF81004DE495 /* RikkeiChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		511005EA1F41DF81004DE495 /* RikkeiChat */ = {
+			isa = PBXGroup;
+			children = (
+				511006001F41E098004DE495 /* GoogleService-Info.plist */,
+				511005EB1F41DF81004DE495 /* AppDelegate.swift */,
+				511005ED1F41DF81004DE495 /* ViewController.swift */,
+				511005EF1F41DF81004DE495 /* Main.storyboard */,
+				511005F51F41DF81004DE495 /* Assets.xcassets */,
+				511005F71F41DF81004DE495 /* LaunchScreen.storyboard */,
+				511005FA1F41DF81004DE495 /* Info.plist */,
+				511005F21F41DF81004DE495 /* RikkeiChat.xcdatamodeld */,
+			);
+			path = RikkeiChat;
+			sourceTree = "<group>";
+		};
+		CEDF9722B42EC2EFC49E571C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8081CF71FC37DE09C5FCE635 /* Pods-RikkeiChat.debug.xcconfig */,
+				FAAC61B7924F4FAEAF0B5CCB /* Pods-RikkeiChat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		511005E71F41DF81004DE495 /* RikkeiChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 511005FD1F41DF81004DE495 /* Build configuration list for PBXNativeTarget "RikkeiChat" */;
+			buildPhases = (
+				13F3FDCBFAB0669A66A9439F /* [CP] Check Pods Manifest.lock */,
+				511005E41F41DF81004DE495 /* Sources */,
+				511005E51F41DF81004DE495 /* Frameworks */,
+				511005E61F41DF81004DE495 /* Resources */,
+				0F2A3521D028C350F60AADFD /* [CP] Embed Pods Frameworks */,
+				2472D58F4DBFB5A41A33CA30 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RikkeiChat;
+			productName = RikkeiChat;
+			productReference = 511005E81F41DF81004DE495 /* RikkeiChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		511005E01F41DF81004DE495 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = GMC;
+				TargetAttributes = {
+					511005E71F41DF81004DE495 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 511005E31F41DF81004DE495 /* Build configuration list for PBXProject "RikkeiChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 511005DF1F41DF81004DE495;
+			productRefGroup = 511005E91F41DF81004DE495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				511005E71F41DF81004DE495 /* RikkeiChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		511005E61F41DF81004DE495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511005F91F41DF81004DE495 /* LaunchScreen.storyboard in Resources */,
+				511006011F41E098004DE495 /* GoogleService-Info.plist in Resources */,
+				511005F61F41DF81004DE495 /* Assets.xcassets in Resources */,
+				511005F11F41DF81004DE495 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F2A3521D028C350F60AADFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RikkeiChat/Pods-RikkeiChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RikkeiChat/Pods-RikkeiChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		13F3FDCBFAB0669A66A9439F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RikkeiChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2472D58F4DBFB5A41A33CA30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RikkeiChat/Pods-RikkeiChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		511005E41F41DF81004DE495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511005F41F41DF81004DE495 /* RikkeiChat.xcdatamodeld in Sources */,
+				511005EE1F41DF81004DE495 /* ViewController.swift in Sources */,
+				511005EC1F41DF81004DE495 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		511005EF1F41DF81004DE495 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				511005F01F41DF81004DE495 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		511005F71F41DF81004DE495 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				511005F81F41DF81004DE495 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		511005FB1F41DF81004DE495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		511005FC1F41DF81004DE495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		511005FE1F41DF81004DE495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8081CF71FC37DE09C5FCE635 /* Pods-RikkeiChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RikkeiChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuong.ios.RikkeiChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		511005FF1F41DF81004DE495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAAC61B7924F4FAEAF0B5CCB /* Pods-RikkeiChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RikkeiChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuong.ios.RikkeiChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		511005E31F41DF81004DE495 /* Build configuration list for PBXProject "RikkeiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511005FB1F41DF81004DE495 /* Debug */,
+				511005FC1F41DF81004DE495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		511005FD1F41DF81004DE495 /* Build configuration list for PBXNativeTarget "RikkeiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				511005FE1F41DF81004DE495 /* Debug */,
+				511005FF1F41DF81004DE495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		511005F21F41DF81004DE495 /* RikkeiChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				511005F31F41DF81004DE495 /* RikkeiChat.xcdatamodel */,
+			);
+			currentVersion = 511005F31F41DF81004DE495 /* RikkeiChat.xcdatamodel */;
+			path = RikkeiChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 511005E01F41DF81004DE495 /* Project object */;
+}
