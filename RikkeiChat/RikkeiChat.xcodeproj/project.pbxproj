@@ -8,25 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		511005EC1F41DF81004DE495 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511005EB1F41DF81004DE495 /* AppDelegate.swift */; };
-		511005EE1F41DF81004DE495 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511005ED1F41DF81004DE495 /* ViewController.swift */; };
-		511005F11F41DF81004DE495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511005EF1F41DF81004DE495 /* Main.storyboard */; };
 		511005F41F41DF81004DE495 /* RikkeiChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 511005F21F41DF81004DE495 /* RikkeiChat.xcdatamodeld */; };
 		511005F61F41DF81004DE495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 511005F51F41DF81004DE495 /* Assets.xcassets */; };
 		511005F91F41DF81004DE495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 511005F71F41DF81004DE495 /* LaunchScreen.storyboard */; };
-		511006011F41E098004DE495 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 511006001F41E098004DE495 /* GoogleService-Info.plist */; };
+		514101D61F453E9800A784FF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514101D41F453E9800A784FF /* SignUpViewController.swift */; };
+		514101D71F453E9800A784FF /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514101D51F453E9800A784FF /* SignUpViewController.xib */; };
+		514101D91F4545EB00A784FF /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514101D81F4545EB00A784FF /* TextField.swift */; };
+		514101DB1F45501100A784FF /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514101DA1F45501100A784FF /* View.swift */; };
+		514101DD1F45512E00A784FF /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514101DC1F45512E00A784FF /* CircleImageView.swift */; };
+		514101E31F45558A00A784FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 514101E21F45558A00A784FF /* GoogleService-Info.plist */; };
+		514101E51F4561BD00A784FF /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514101E41F4561BD00A784FF /* Button.swift */; };
+		514101E71F4565D800A784FF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514101E61F4565D800A784FF /* BaseViewController.swift */; };
+		514101EA1F45660E00A784FF /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514101E81F45660E00A784FF /* LoadingViewController.swift */; };
+		514101EB1F45660E00A784FF /* LoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514101E91F45660E00A784FF /* LoadingViewController.xib */; };
 		8E29316A0ED4E36A77B40195 /* Pods_RikkeiChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91296580B6F9F00BC6EB15B3 /* Pods_RikkeiChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		511005E81F41DF81004DE495 /* RikkeiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RikkeiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		511005EB1F41DF81004DE495 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		511005ED1F41DF81004DE495 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		511005F01F41DF81004DE495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		511005F31F41DF81004DE495 /* RikkeiChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RikkeiChat.xcdatamodel; sourceTree = "<group>"; };
 		511005F51F41DF81004DE495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		511005F81F41DF81004DE495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		511005FA1F41DF81004DE495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		511006001F41E098004DE495 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		514101D41F453E9800A784FF /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		514101D51F453E9800A784FF /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		514101D81F4545EB00A784FF /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		514101DA1F45501100A784FF /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		514101DC1F45512E00A784FF /* CircleImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		514101E21F45558A00A784FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		514101E41F4561BD00A784FF /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		514101E61F4565D800A784FF /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		514101E81F45660E00A784FF /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		514101E91F45660E00A784FF /* LoadingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingViewController.xib; sourceTree = "<group>"; };
 		8081CF71FC37DE09C5FCE635 /* Pods-RikkeiChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RikkeiChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RikkeiChat/Pods-RikkeiChat.debug.xcconfig"; sourceTree = "<group>"; };
 		91296580B6F9F00BC6EB15B3 /* Pods_RikkeiChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RikkeiChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAC61B7924F4FAEAF0B5CCB /* Pods-RikkeiChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RikkeiChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-RikkeiChat/Pods-RikkeiChat.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,16 +87,39 @@
 		511005EA1F41DF81004DE495 /* RikkeiChat */ = {
 			isa = PBXGroup;
 			children = (
-				511006001F41E098004DE495 /* GoogleService-Info.plist */,
+				514101E21F45558A00A784FF /* GoogleService-Info.plist */,
 				511005EB1F41DF81004DE495 /* AppDelegate.swift */,
-				511005ED1F41DF81004DE495 /* ViewController.swift */,
-				511005EF1F41DF81004DE495 /* Main.storyboard */,
 				511005F51F41DF81004DE495 /* Assets.xcassets */,
-				511005F71F41DF81004DE495 /* LaunchScreen.storyboard */,
+				514101D31F453E5400A784FF /* Controllers */,
 				511005FA1F41DF81004DE495 /* Info.plist */,
+				511005F71F41DF81004DE495 /* LaunchScreen.storyboard */,
 				511005F21F41DF81004DE495 /* RikkeiChat.xcdatamodeld */,
+				514101D21F453E4F00A784FF /* Views */,
 			);
 			path = RikkeiChat;
+			sourceTree = "<group>";
+		};
+		514101D21F453E4F00A784FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				514101D81F4545EB00A784FF /* TextField.swift */,
+				514101DA1F45501100A784FF /* View.swift */,
+				514101DC1F45512E00A784FF /* CircleImageView.swift */,
+				514101E41F4561BD00A784FF /* Button.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		514101D31F453E5400A784FF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				514101D41F453E9800A784FF /* SignUpViewController.swift */,
+				514101D51F453E9800A784FF /* SignUpViewController.xib */,
+				514101E61F4565D800A784FF /* BaseViewController.swift */,
+				514101E81F45660E00A784FF /* LoadingViewController.swift */,
+				514101E91F45660E00A784FF /* LoadingViewController.xib */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		CEDF9722B42EC2EFC49E571C /* Pods */ = {
@@ -129,6 +166,7 @@
 				TargetAttributes = {
 					511005E71F41DF81004DE495 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6NBXWL9P3A;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -157,9 +195,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				511005F91F41DF81004DE495 /* LaunchScreen.storyboard in Resources */,
-				511006011F41E098004DE495 /* GoogleService-Info.plist in Resources */,
+				514101E31F45558A00A784FF /* GoogleService-Info.plist in Resources */,
+				514101D71F453E9800A784FF /* SignUpViewController.xib in Resources */,
+				514101EB1F45660E00A784FF /* LoadingViewController.xib in Resources */,
 				511005F61F41DF81004DE495 /* Assets.xcassets in Resources */,
-				511005F11F41DF81004DE495 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,23 +267,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				514101E51F4561BD00A784FF /* Button.swift in Sources */,
+				514101D61F453E9800A784FF /* SignUpViewController.swift in Sources */,
 				511005F41F41DF81004DE495 /* RikkeiChat.xcdatamodeld in Sources */,
-				511005EE1F41DF81004DE495 /* ViewController.swift in Sources */,
+				514101DB1F45501100A784FF /* View.swift in Sources */,
 				511005EC1F41DF81004DE495 /* AppDelegate.swift in Sources */,
+				514101EA1F45660E00A784FF /* LoadingViewController.swift in Sources */,
+				514101E71F4565D800A784FF /* BaseViewController.swift in Sources */,
+				514101DD1F45512E00A784FF /* CircleImageView.swift in Sources */,
+				514101D91F4545EB00A784FF /* TextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		511005EF1F41DF81004DE495 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				511005F01F41DF81004DE495 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		511005F71F41DF81004DE495 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -354,9 +391,10 @@
 			baseConfigurationReference = 8081CF71FC37DE09C5FCE635 /* Pods-RikkeiChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6NBXWL9P3A;
 				INFOPLIST_FILE = RikkeiChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cuong.ios.RikkeiChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuong.ios.RikkeiChat1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -367,9 +405,10 @@
 			baseConfigurationReference = FAAC61B7924F4FAEAF0B5CCB /* Pods-RikkeiChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6NBXWL9P3A;
 				INFOPLIST_FILE = RikkeiChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cuong.ios.RikkeiChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cuong.ios.RikkeiChat1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
